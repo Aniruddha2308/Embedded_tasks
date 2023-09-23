@@ -12,11 +12,11 @@ void main() {
    {
         if(a[i]%2==0)
         {
-            sum1+=a[i];   
+            sum1=sum1+a[i];   
         }
         else
         {
-            sum2+=a[i];
+            sum2=sum2+a[i];
         }
    }
    printf("Sum of even numbers=%d\n",sum1);
