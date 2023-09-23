@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void main() {
    int a[100],n,sum1=0,sum2=0;
    printf("enter the number of elements:\n ");
@@ -13,8 +12,7 @@ void main() {
    {
         if(a[i]%2==0)
         {
-            sum1+=a[i];
-            
+            sum1+=a[i];   
         }
         else
         {
@@ -22,6 +20,5 @@ void main() {
         }
    }
    printf("Sum of even numbers=%d\n",sum1);
-   printf("Sum of odd numbers=%d",sum2);
-   
+   printf("Sum of odd numbers=%d",sum2); 
 }
